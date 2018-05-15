@@ -1,0 +1,2 @@
+module DonationPickupsHelper
+end

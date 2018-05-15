@@ -1,0 +1,2 @@
+class DonationPickupsController < ApplicationController
+end

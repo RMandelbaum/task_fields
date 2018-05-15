@@ -1,0 +1,47 @@
+1. Typos in Readme
+3. Categories table title
+4. Shopping table store_name:string list:text Expected Expenses:integer  category_id:integer
+5. Donation Pickup table vehicle_size:string address:string receipt:boolean category_id:integer
+6. Moving Help table Amt_people:integer address:string category_id:integer
+7. House Cleaning table  address: string, num_bathrooms:integer, address:string category_id:integer
+8. Other  title:string description text category_id:integer
+Shopping, Donation Pickup, Moving Help, House Cleaning, Other
+
+Forms change? use partial so only have to make changes in one place
+In each model, validate all fields
+New category form for future Categories
+Syncing: look up
+Statistics: write a method for integers input and display on stats page the most common
+
+
+2. DB: Use pg for production, mysql/sqlite for development
+
+*Should I use Ancestry gem??
+
+extra credit:
+editing tasks
+
+add user authentication with facebook, omniauth
+add some JS
+Dynamic task category (form) builder?
+Create an API using serialization JSON
+
+
+www.taskrabbit.com/categories
+login option
+root home page will have a list of Categories
+User will click on category which will go to page
+one of the categories and display
+/shopping
+display all tasks by that user in that category
+new/display form to fill out
+shopping/1
+show
+edit
+delete
+
+
+@categories = Category.create([{type: "Shopping"}, {type: "Donation Pickup"}, {type: "Moving Help"}, {type: "House Cleaning"}, {type: "Other"}])
+
+
+Not crazy about making a new db table for each type of task, would rather have overall tasks and then use questions as a nested attribute, but it will be more complex to figure out statistic

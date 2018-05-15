@@ -1,0 +1,2 @@
+class DonationPickup < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+class MovingHelp < ApplicationRecord
+end

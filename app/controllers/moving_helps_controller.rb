@@ -1,0 +1,2 @@
+class MovingHelpsController < ApplicationController
+end
