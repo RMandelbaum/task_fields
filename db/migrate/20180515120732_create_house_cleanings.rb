@@ -6,7 +6,7 @@ class CreateHouseCleanings < ActiveRecord::Migration[5.1]
       t.string :cleaning_type
       t.date :due_date
       t.integer :category_id
-      
+
       t.timestamps
     end
   end

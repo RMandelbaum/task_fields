@@ -5,7 +5,7 @@ class CreateMovingHelps < ActiveRecord::Migration[5.1]
       t.string :address
       t.date :due_date
       t.integer :category_id
-      
+
       t.timestamps
     end
   end
